@@ -29,18 +29,17 @@ SofaStereoKit/
 │  ├─ csharp/      # C# bindings for StereoKit
 │  └─ interop/     # shared interop types
 ├─ samples/        # StereoKit samples
-├─ docs/           # notes and assets
+├─ LICENSE
 └─ README.md
 ```
 
 ## Requirements
 
-- [SOFA](https://github.com/sofa-framework/sofa)
-- [StereoKit](https://github.com/StereoKit/StereoKit)
+- [SOFA Binaries](https://github.com/sofa-framework/sofa/releases) 
+- [StereoKit Source code](https://github.com/StereoKit/StereoKit/releases)
 - CMake
 - C++ compiler
 - .NET SDK
-- OpenXR runtime
 
 ## Build
 
@@ -65,3 +64,11 @@ cmake --build build --config Release
 This project must define its own license.
 
 SOFA and StereoKit keep their own licenses. Please review their license terms before redistributing binaries or integrating this project into commercial software.
+
+### Contact
+contact@healsimulations.com
+
+-----------------------------------------------------------------------------
+
+HEAL Simularions, Inc.  
+(c) 2026 SIOKOS IOANNIS
