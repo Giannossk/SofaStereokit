@@ -4,13 +4,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://stereokit.net/"><img src="https://github.com/StereoKit/StereoKit/blob/master/tools/img/StereoKitWideBackground.svg" alt="StereoKit" height="85"/></a>
 
-
-# SofaStereoKit
-
-**Real-time multi-physics simulation with SOFA, rendered and interacted with in StereoKit.**
-
-<br/>
-
 [![SOFA](https://img.shields.io/badge/SOFA-simulation-orange.svg)](https://github.com/sofa-framework/sofa)
 [![StereoKit](https://img.shields.io/badge/StereoKit-XR-blueviolet.svg)](https://github.com/StereoKit/StereoKit)
 [![OpenXR](https://img.shields.io/badge/OpenXR-ready-brightgreen.svg)](https://www.khronos.org/openxr/)
