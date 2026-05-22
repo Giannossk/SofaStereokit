@@ -18,7 +18,7 @@ SofaStereoKit connects both worlds:
 - SOFA computes the simulation
 - StereoKit renders the scene in XR
 - StereoKit input can interact with SOFA objects
-- SOFA scenes can become immersive medical and robotic simulations
+- SOFA scenes become immersive medical and robotic simulations
 
 ## Repository layout
 
