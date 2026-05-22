@@ -1,12 +1,9 @@
 <div align="center">
 
-<a href="https://www.sofa-framework.org/">
-  <img src="https://www.sofa-framework.org/wp-content/uploads/2013/01/SOFA_LOGO_ORANGE_2-normal.png" alt="SOFA Framework" height="85"/>
-</a>
+<a href="https://www.sofa-framework.org/"><img src="https://www.sofa-framework.org/wp-content/uploads/2013/01/SOFA_LOGO_ORANGE_2-normal.png" alt="SOFA Framework" height="85"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://stereokit.net/">
-  <img src="https://github.com/StereoKit/StereoKit/blob/master/tools/img/StereoKitWideBackground.svg" alt="StereoKit" height="85"/>
-</a>
+<a href="https://stereokit.net/"><img src="https://github.com/StereoKit/StereoKit/blob/master/tools/img/StereoKitWideBackground.svg" alt="StereoKit" height="85"/></a>
+
 
 # SofaStereoKit
 
@@ -35,32 +32,6 @@ SofaStereoKit connects both worlds:
 - StereoKit renders the scene in XR
 - StereoKit input can interact with SOFA objects
 - SOFA scenes can become immersive medical and robotic simulations
-
-## Why
-
-SOFA is often used as a standalone simulation tool, but it is also a set of libraries that can be integrated into other projects.
-
-StereoKit is designed for simple, direct XR development.
-
-SofaStereoKit aims to make SOFA simulations visible, interactive, and spatial through StereoKit.
-
-## Minimal example
-
-```csharp
-using StereoKit;
-using SofaStereoKit;
-
-SK.Initialize();
-
-var sofa = new SofaRuntime();
-sofa.LoadScene("scene.scn");
-
-SK.Run(() =>
-{
-    sofa.Step(Time.Elapsedf);
-    sofa.Draw();
-});
-```
 
 ## Repository layout
 
@@ -107,12 +78,3 @@ cmake --build build --config Release
 This project must define its own license.
 
 SOFA and StereoKit keep their own licenses. Please review their license terms before redistributing binaries or integrating this project into commercial software.
-
----
-
-<div align="center">
-
-**SofaStereoKit**  
-SOFA simulation, StereoKit interaction.
-
-</div>
