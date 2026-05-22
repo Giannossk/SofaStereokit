@@ -11,13 +11,7 @@
 
 </div>
 
-## What is SofaStereoKit
-
-**SofaStereoKit** is a binding layer between [SOFA](https://github.com/sofa-framework/sofa) and [StereoKit](https://github.com/StereoKit/StereoKit).
-
-SOFA provides real-time physics simulation, with an emphasis on medical simulation, robotics, deformable bodies, FEM, constraints, solvers, and collision models.
-
-StereoKit provides a lightweight OpenXR application framework for building mixed reality, virtual reality, and spatial computing experiences in C#.
+**SofaStereoKit** is a binding layer between [SOFA](https://github.com/sofa-framework/sofa) and [StereoKit](https://github.com/StereoKit/StereoKit). **SOFA** provides real-time physics simulation, with an emphasis on medical simulation, robotics, deformable bodies, FEM, constraints, solvers, and collision models. **StereoKit** provides a lightweight OpenXR application framework for building mixed reality, virtual reality, and spatial computing experiences in C#.
 
 SofaStereoKit connects both worlds:
 
